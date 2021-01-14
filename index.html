@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table border="1" cellspacing="10">
+      <tr>
+        <th>Electricity Bill</th>
+        <td contenteditable="true" id="eb" onkeyup="calculatedAmount()">0</td>
+      </tr>
+      <tr>
+        <th>Gas Bill</th>
+        <td contenteditable="true" id="gb" onkeyup="calculatedAmount()">0</td>
+      </tr>
+      <tr>
+        <th>Ptcl Bill</th>
+        <td contenteditable="true" id="pb" onkeyup="calculatedAmount()">0</td>
+      </tr>
+      <tr>
+        <th>House Rent Bill</th>
+        <td contenteditable="true" id="rb" onkeyup="calculatedAmount()">0</td>
+      </tr>
+
+      <tr>
+        <th>Withdraw Amount</th>
+        <td id="wa">0</td>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>

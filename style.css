@@ -1,0 +1,13 @@
+table {
+    padding: 5px;
+    margin: auto;
+  }
+  tr,
+  th {
+    width: 200px;
+    height: 30px;
+  }
+  td {
+    width: 40px;
+    text-align: center;
+  }
